@@ -6,16 +6,17 @@ SELECT  Top 10 CONCAT(ED1.First_Name,' ', ED1.LAST_Name) Manager_Name
 FROM [EmployeeDirectory] ED1
 		INNER JOIN EmployeeDirectory ED2 ON
 		ED1.EmployeeID = ED2.Manager
+Order by Manager_Name,Employee_Name
 /*
-Manager_Name		Manager_Title				Employee_Name		Employee_Title
-Amaya Witt			Customer Service Manager	Ainsley Barnett		Customer Service Representative
-Davis Lang			Lead Product Manager		Dominic Buchanan	Product Manager
-Davis Lang			Lead Product Manager		Hermione Lane		Product Manager
-Mary Small			Manager UI/UX	Quincy		Lindsay				Designer
-Samuel Brooks		Manager of Communications	Lewis Rivas			Senior Writer
-Mary Small			Manager UI/UX				Deanna Rowland		Designer
-Amaya Witt			Customer Service Manager	Julie Davenport		Customer Service Representative
-Devin David			CFO							Scarlet Mccoy		Accountant
-Gavin Medina		Chief Technology Officer	Dolan York			Server Adminstrator
-Mary Small			Manager UI/UX				Zahir Pickett		Web Designer
+Manager_Name		Manager_Title				Employee_Name			Employee_Title
+Amaya Witt			Customer Service Manager	Ainsley Barnett			Customer Service Representative
+Amaya Witt			Customer Service Manager	Amelia Mcfadden			Customer Service Representative
+Amaya Witt			Customer Service Manager	Jemima Mccormick		Customer Service Representative
+Amaya Witt			Customer Service Manager	Julie Davenport			Customer Service Representative
+Amaya Witt			Customer Service Manager	Medge Rollins			Customer Service Representative
+Amaya Witt			Customer Service Manager	Thor Watson				Customer Service Representative
+Amethyst Ashley		VP Customer Service			Amaya Witt				Customer Service Manager
+Amethyst Ashley		VP Customer Service			Guinevere Banks			Engineer
+Amethyst Ashley		VP Customer Service			Isabella Bauer			Customer Service Representative
+Amethyst Ashley		VP Customer Service			Kiona Hancock			Customer Service Manager
 */
