@@ -1,3 +1,4 @@
+--Create a listing of total customer orders amounts and include customer mailing addresses.
 With Cust
 AS
 (
