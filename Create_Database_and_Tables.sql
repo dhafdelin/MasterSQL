@@ -1,3 +1,4 @@
+--Create database, tables and populate with data.
 IF	DB_ID('Insurance_Demo') IS NULL
 
 
